@@ -1,0 +1,27 @@
+/* ==UserStyle==
+@name           noBadge
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         o0Ett
+==/UserStyle== */
+    
+    .summary-profile .info-point {
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    height: 0;
+    font-size: 0.875rem;
+    line-height: 0;
+    vertical-align: auto;
+    }
+    
+    .info-point img {
+        display: none;
+    }
+
+
